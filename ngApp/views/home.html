@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+
+<body ng-controller="HomeController as controller">
+
+<h2>
+  Welcome to homepage</h2>
+<p>{{controller.message}}</p>
+<li ng-repeat="car in controller.cars">
+{{car.name}}
+</li>
+</body>
+</html>
